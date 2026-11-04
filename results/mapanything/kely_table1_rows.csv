@@ -1,0 +1,7 @@
+method,view_mode,subset,n,MAE_m,MAE_CI95_low,MAE_CI95_high,median_AE_m,bias_m,MAPE_%,within_0.5m_%
+MapAnything (80-case benchmark),single,S1: own QC pass (all cameras),30,0.9246,0.542,1.4451,0.4258,-0.6933,16.7644,50.0
+MapAnything (80-case benchmark),single,"S2: own QC pass, phone/GoPro (EXIF) only",24,0.6496,0.4033,0.9997,0.3166,-0.4286,12.3615,54.1667
+MapAnything (80-case benchmark),single,S3: common 32-case set,30,0.9246,0.542,1.4451,0.4258,-0.6933,16.7644,50.0
+MapAnything (80-case benchmark),multi,S1: own QC pass (all cameras),32,1.0912,0.7454,1.5134,0.5816,-0.2781,19.9184,46.875
+MapAnything (80-case benchmark),multi,"S2: own QC pass, phone/GoPro (EXIF) only",24,0.771,0.4984,1.1241,0.4675,0.2763,14.57,54.1667
+MapAnything (80-case benchmark),multi,S3: common 32-case set,32,1.0912,0.7454,1.5134,0.5816,-0.2781,19.9184,46.875

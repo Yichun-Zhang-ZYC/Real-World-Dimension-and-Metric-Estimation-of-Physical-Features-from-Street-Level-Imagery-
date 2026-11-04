@@ -1,0 +1,4 @@
+method,view_mode,subset,n,MAE_m,MAE_CI95_low,MAE_CI95_high,median_AE_m,bias_m,MAPE_%,within_0.5m_%
+VGGT,multi,S1: own QC pass (all cameras),35,1.58,1.258,1.92,1.199,0.563,29.807,11.429
+VGGT,multi,"S2: own QC pass, phone/GoPro (EXIF) only",26,1.621,1.27,1.989,1.259,1.042,30.801,7.692
+VGGT,multi,S3: common 32-case set (MapAnything QC pass),32,2.38,1.334,4.077,1.248,1.519,44.858,12.5

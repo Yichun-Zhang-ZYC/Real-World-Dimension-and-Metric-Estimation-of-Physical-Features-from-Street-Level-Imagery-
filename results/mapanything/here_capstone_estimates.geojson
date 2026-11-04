@@ -1,0 +1,2581 @@
+{
+ "type": "FeatureCollection",
+ "name": "here_capstone_mapanything_estimates",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.90289444444446,
+     41.87370277777778
+    ]
+   },
+   "properties": {
+    "id": "nbi_016008600000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "WOLF RD",
+    "facility_on": "I-290 IKE-IL 110 C",
+    "estimate_single_view_m": null,
+    "estimate_multi_view_m": null,
+    "ground_truth_nbi_54b_m": 4.47,
+    "qc_pass": false,
+    "status": "no_structure_on_anchor",
+    "anchor_image_id": "485644762755121",
+    "camera": "unknown unknown",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.7516611111111,
+     41.99038333333333
+    ]
+   },
+   "properties": {
+    "id": "nbi_016036400000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "I- 94 EDENS",
+    "facility_on": "US 14 (PETERSON AV",
+    "estimate_single_view_m": 2.989,
+    "estimate_multi_view_m": 4.197,
+    "ground_truth_nbi_54b_m": 4.42,
+    "qc_pass": true,
+    "status": "ok",
+    "anchor_image_id": "547475656404821",
+    "camera": "Apple iPhone5S",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.01997222222222,
+     42.10046944444444
+    ]
+   },
+   "properties": {
+    "id": "nbi_016037400000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "US 14 NW HWY & UP RR",
+    "facility_on": "IL  53 NB",
+    "estimate_single_view_m": null,
+    "estimate_multi_view_m": null,
+    "ground_truth_nbi_54b_m": 5.49,
+    "qc_pass": false,
+    "status": "no_structure_on_anchor",
+    "anchor_image_id": "317124199878291",
+    "camera": "unknown unknown",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.8527,
+     41.74546111111111
+    ]
+   },
+   "properties": {
+    "id": "nbi_016051800000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "US 12 20 45 MANNHEIM",
+    "facility_on": "IL 171 & 79 ST EB",
+    "estimate_single_view_m": null,
+    "estimate_multi_view_m": null,
+    "ground_truth_nbi_54b_m": 4.27,
+    "qc_pass": false,
+    "status": "no_structure_on_anchor",
+    "anchor_image_id": "4608781452467390",
+    "camera": "unknown unknown",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.61383055555555,
+     41.57940000000001
+    ]
+   },
+   "properties": {
+    "id": "nbi_016062200000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "I- 80  294",
+    "facility_on": "THORTON/VINCENNES",
+    "estimate_single_view_m": 5.63,
+    "estimate_multi_view_m": 6.43,
+    "ground_truth_nbi_54b_m": 5.97,
+    "qc_pass": true,
+    "status": "ok",
+    "anchor_image_id": "469087277520906",
+    "camera": "Apple iPadMini4",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.75056111111111,
+     42.01178888888889
+    ]
+   },
+   "properties": {
+    "id": "nbi_016071300000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "I- 94 EDENS",
+    "facility_on": "TOUHY AVE",
+    "estimate_single_view_m": 3.636,
+    "estimate_multi_view_m": 5.445,
+    "ground_truth_nbi_54b_m": 4.5,
+    "qc_pass": true,
+    "status": "ok",
+    "anchor_image_id": "481975149582147",
+    "camera": "Apple iPadMini4",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.7598388888889,
+     42.01846111111111
+    ]
+   },
+   "properties": {
+    "id": "nbi_016072000000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "I- 94 EDENS",
+    "facility_on": "NILES CENTER RD",
+    "estimate_single_view_m": null,
+    "estimate_multi_view_m": null,
+    "ground_truth_nbi_54b_m": 4.42,
+    "qc_pass": false,
+    "status": "no_road_on_anchor",
+    "anchor_image_id": "320006219578834",
+    "camera": "unknown unknown",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.76280555555556,
+     41.81090555555555
+    ]
+   },
+   "properties": {
+    "id": "nbi_016072400000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "I- 55 STEVENSON",
+    "facility_on": "CENTRAL AVE & RAMP",
+    "estimate_single_view_m": 1.781,
+    "estimate_multi_view_m": 2.082,
+    "ground_truth_nbi_54b_m": 7.42,
+    "qc_pass": true,
+    "status": "ok",
+    "anchor_image_id": "607919478457878",
+    "camera": "none none",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.72406666666667,
+     41.82358611111111
+    ]
+   },
+   "properties": {
+    "id": "nbi_016074400000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "I- 55 STEVENSON",
+    "facility_on": "PULASKI RD & RAMPS",
+    "estimate_single_view_m": null,
+    "estimate_multi_view_m": 3.578,
+    "ground_truth_nbi_54b_m": 6.15,
+    "qc_pass": true,
+    "status": "ok",
+    "anchor_image_id": "1356038469108333",
+    "camera": "none none",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.77818888888889,
+     42.11614444444445
+    ]
+   },
+   "properties": {
+    "id": "nbi_016081500000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "I- 94  US41 EDENS",
+    "facility_on": "TOWER RD",
+    "estimate_single_view_m": null,
+    "estimate_multi_view_m": null,
+    "ground_truth_nbi_54b_m": 4.47,
+    "qc_pass": false,
+    "status": "no_structure_on_anchor",
+    "anchor_image_id": "1350107712056905",
+    "camera": "unknown unknown",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.74920277777778,
+     42.00454444444444
+    ]
+   },
+   "properties": {
+    "id": "nbi_016083100000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "I- 94 EDENS",
+    "facility_on": "PRATT AVE",
+    "estimate_single_view_m": 3.633,
+    "estimate_multi_view_m": 4.261,
+    "ground_truth_nbi_54b_m": 4.5,
+    "qc_pass": true,
+    "status": "ok",
+    "anchor_image_id": "962231330984385",
+    "camera": "Apple iPadMini4",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.66121111111111,
+     41.68928055555556
+    ]
+   },
+   "properties": {
+    "id": "nbi_016098800000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "I- 57",
+    "facility_on": "112TH (MONTEREY AV",
+    "estimate_single_view_m": 4.446,
+    "estimate_multi_view_m": 5.159,
+    "ground_truth_nbi_54b_m": 4.7,
+    "qc_pass": true,
+    "status": "ok",
+    "anchor_image_id": "316463533329522",
+    "camera": "Apple iPhone7Plus",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.66016944444445,
+     41.69215
+    ]
+   },
+   "properties": {
+    "id": "nbi_016098900000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "I- 57",
+    "facility_on": "111TH ST",
+    "estimate_single_view_m": null,
+    "estimate_multi_view_m": null,
+    "ground_truth_nbi_54b_m": 4.52,
+    "qc_pass": false,
+    "status": "estimate_failed",
+    "anchor_image_id": "258405170488289",
+    "camera": "unknown unknown",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.83293333333333,
+     41.798922222222224
+    ]
+   },
+   "properties": {
+    "id": "nbi_016100600000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "JOLIET RD&BN RR SPUR",
+    "facility_on": "IL 171 NB",
+    "estimate_single_view_m": null,
+    "estimate_multi_view_m": null,
+    "ground_truth_nbi_54b_m": 6.5,
+    "qc_pass": false,
+    "status": "no_structure_on_anchor",
+    "anchor_image_id": "939757643481031",
+    "camera": "unknown unknown",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.67545,
+     41.83728888888889
+    ]
+   },
+   "properties": {
+    "id": "nbi_016100900000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "I- 55 STEVENSON",
+    "facility_on": "DAMEN AVE & 4 RAMP",
+    "estimate_single_view_m": 3.248,
+    "estimate_multi_view_m": 3.837,
+    "ground_truth_nbi_54b_m": 5.99,
+    "qc_pass": true,
+    "status": "ok",
+    "anchor_image_id": "946414130383899",
+    "camera": "none none",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.03123611111111,
+     42.08848888888889
+    ]
+   },
+   "properties": {
+    "id": "nbi_016101800000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "IL  53",
+    "facility_on": "EUCLID AVE",
+    "estimate_single_view_m": 4.462,
+    "estimate_multi_view_m": 4.45,
+    "ground_truth_nbi_54b_m": 4.75,
+    "qc_pass": true,
+    "status": "ok",
+    "anchor_image_id": "517563122610758",
+    "camera": "Apple iPhone5",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.63215,
+     41.84736111111111
+    ]
+   },
+   "properties": {
+    "id": "nbi_016104900000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "I- 55 STEVENSON",
+    "facility_on": "WENTWORTH AVE",
+    "estimate_single_view_m": 4.473,
+    "estimate_multi_view_m": 3.91,
+    "ground_truth_nbi_54b_m": 4.78,
+    "qc_pass": true,
+    "status": "ok",
+    "anchor_image_id": "1257082642254444",
+    "camera": "none none",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.64232777777778,
+     41.84786388888889
+    ]
+   },
+   "properties": {
+    "id": "nbi_016105900000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "I- 55 STEVENSON",
+    "facility_on": "I- 55 EB TO RYAN N",
+    "estimate_single_view_m": null,
+    "estimate_multi_view_m": null,
+    "ground_truth_nbi_54b_m": 7.92,
+    "qc_pass": false,
+    "status": "no_structure_on_anchor",
+    "anchor_image_id": "181718967192832",
+    "camera": "unknown unknown",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.64498333333334,
+     41.85022777777778
+    ]
+   },
+   "properties": {
+    "id": "nbi_016106200000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "ARCHER  BNSF & IC RR",
+    "facility_on": "I- 90 94 SB TOI-55",
+    "estimate_single_view_m": null,
+    "estimate_multi_view_m": null,
+    "ground_truth_nbi_54b_m": 5.49,
+    "qc_pass": false,
+    "status": "no_structure_on_anchor",
+    "anchor_image_id": "1992604457560307",
+    "camera": "unknown unknown",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.63111111111111,
+     41.84553888888889
+    ]
+   },
+   "properties": {
+    "id": "nbi_016106400000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "FRANKLIN ST EXTEND",
+    "facility_on": "26TH ST",
+    "estimate_single_view_m": 4.643,
+    "estimate_multi_view_m": 4.63,
+    "ground_truth_nbi_54b_m": 4.55,
+    "qc_pass": true,
+    "status": "ok",
+    "anchor_image_id": "2884623505113769",
+    "camera": "Apple iPadMini4",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.6317,
+     41.84471111111112
+    ]
+   },
+   "properties": {
+    "id": "nbi_016109300000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "CHINATOWN FEEDER",
+    "facility_on": "RYAN NB FRNT RD B",
+    "estimate_single_view_m": null,
+    "estimate_multi_view_m": null,
+    "ground_truth_nbi_54b_m": 5.21,
+    "qc_pass": false,
+    "status": "no_structure_on_anchor",
+    "anchor_image_id": "762176564492357",
+    "camera": "unknown unknown",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.64405555555557,
+     41.84898333333334
+    ]
+   },
+   "properties": {
+    "id": "nbi_016111500000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "S BR CHGO RIV TO CAN",
+    "facility_on": "I- 90 94 RYAN ELEV",
+    "estimate_single_view_m": null,
+    "estimate_multi_view_m": null,
+    "ground_truth_nbi_54b_m": 5.49,
+    "qc_pass": false,
+    "status": "no_structure_on_anchor",
+    "anchor_image_id": "1140928316319684",
+    "camera": "unknown unknown",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.62928055555555,
+     41.83463888888889
+    ]
+   },
+   "properties": {
+    "id": "nbi_016115800000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "I- 90 94 RYAN & CTA",
+    "facility_on": "33RD ST",
+    "estimate_single_view_m": null,
+    "estimate_multi_view_m": null,
+    "ground_truth_nbi_54b_m": 4.29,
+    "qc_pass": false,
+    "status": "no_structure_on_anchor",
+    "anchor_image_id": "2888792258036068",
+    "camera": "unknown unknown",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.64573333333334,
+     41.87670277777778
+    ]
+   },
+   "properties": {
+    "id": "nbi_016170700000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "I- 90 94 JFK",
+    "facility_on": "VAN BUREN ST",
+    "estimate_single_view_m": null,
+    "estimate_multi_view_m": null,
+    "ground_truth_nbi_54b_m": 5.18,
+    "qc_pass": false,
+    "status": "no_structure_on_anchor",
+    "anchor_image_id": "207085521069900",
+    "camera": "unknown unknown",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.87327222222221,
+     41.75411944444444
+    ]
+   },
+   "properties": {
+    "id": "nbi_016195900000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "CN/CSS Can./DesPl Rv/SF",
+    "facility_on": "I-294",
+    "estimate_single_view_m": null,
+    "estimate_multi_view_m": null,
+    "ground_truth_nbi_54b_m": 5.72,
+    "qc_pass": false,
+    "status": "no_structure_on_anchor",
+    "anchor_image_id": "284770306686910",
+    "camera": "unknown unknown",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.74731111111112,
+     41.96438333333334
+    ]
+   },
+   "properties": {
+    "id": "nbi_016203800000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "I- 94 EDENS",
+    "facility_on": "WILSON AVE",
+    "estimate_single_view_m": 4.243,
+    "estimate_multi_view_m": 4.865,
+    "ground_truth_nbi_54b_m": 4.39,
+    "qc_pass": true,
+    "status": "ok",
+    "anchor_image_id": "312085400477687",
+    "camera": "Apple iPadMini4",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.65116388888889,
+     41.89113611111111
+    ]
+   },
+   "properties": {
+    "id": "nbi_016204800000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "I- 90 94 JFK",
+    "facility_on": "GRAND AVE",
+    "estimate_single_view_m": null,
+    "estimate_multi_view_m": null,
+    "ground_truth_nbi_54b_m": 4.57,
+    "qc_pass": false,
+    "status": "no_structure_on_anchor",
+    "anchor_image_id": "225238529010603",
+    "camera": "unknown unknown",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.73035,
+     41.8743
+    ]
+   },
+   "properties": {
+    "id": "nbi_016206800000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "I-290 - IL 110 & CTA",
+    "facility_on": "KEELER AVE",
+    "estimate_single_view_m": 1.734,
+    "estimate_multi_view_m": 2.103,
+    "ground_truth_nbi_54b_m": 4.19,
+    "qc_pass": true,
+    "status": "ok",
+    "anchor_image_id": "1832692194758405",
+    "camera": "none none",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.72039722222222,
+     41.87412222222223
+    ]
+   },
+   "properties": {
+    "id": "nbi_016207000000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "I-290 - IL 110 & CTA",
+    "facility_on": "INDEPENDENCE BLVD",
+    "estimate_single_view_m": 4.004,
+    "estimate_multi_view_m": 4.631,
+    "ground_truth_nbi_54b_m": 4.19,
+    "qc_pass": true,
+    "status": "ok",
+    "anchor_image_id": "1074768078498697",
+    "camera": "none none",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.68636388888889,
+     41.87594166666667
+    ]
+   },
+   "properties": {
+    "id": "nbi_016208300000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "I-290 - IL 110 & CTA",
+    "facility_on": "WESTERN AVE",
+    "estimate_single_view_m": null,
+    "estimate_multi_view_m": null,
+    "ground_truth_nbi_54b_m": 4.39,
+    "qc_pass": false,
+    "status": "no_structure_on_anchor",
+    "anchor_image_id": "1222795058150257",
+    "camera": "unknown unknown",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.64762777777779,
+     41.89265833333333
+    ]
+   },
+   "properties": {
+    "id": "nbi_016211800000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "OHIO STREET FEEDER",
+    "facility_on": "HALSTED ST",
+    "estimate_single_view_m": 3.539,
+    "estimate_multi_view_m": 4.447,
+    "ground_truth_nbi_54b_m": 4.67,
+    "qc_pass": true,
+    "status": "ok",
+    "anchor_image_id": "501281231292253",
+    "camera": "Apple iPhoneSE",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.58604722222222,
+     41.70778888888889
+    ]
+   },
+   "properties": {
+    "id": "nbi_016244100000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "103RD ST",
+    "facility_on": "STONEY ISLAND NB",
+    "estimate_single_view_m": 5.014,
+    "estimate_multi_view_m": 5.897,
+    "ground_truth_nbi_54b_m": 4.72,
+    "qc_pass": true,
+    "status": "ok",
+    "anchor_image_id": "139252601528164",
+    "camera": "Apple iPhone7Plus",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.080325,
+     41.99454166666667
+    ]
+   },
+   "properties": {
+    "id": "nbi_016256100000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "IL 390 ELGIN-OHARE",
+    "facility_on": "ROSELLE RD",
+    "estimate_single_view_m": null,
+    "estimate_multi_view_m": null,
+    "ground_truth_nbi_54b_m": 5.0,
+    "qc_pass": false,
+    "status": "no_structure_on_anchor",
+    "anchor_image_id": "279749503868670",
+    "camera": "unknown unknown",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.19293333333334,
+     42.06683055555556
+    ]
+   },
+   "properties": {
+    "id": "nbi_016259900000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "I- 90 ADAMS TOLL",
+    "facility_on": "IL  59 (SUTTON RD)",
+    "estimate_single_view_m": 5.387,
+    "estimate_multi_view_m": 5.886,
+    "ground_truth_nbi_54b_m": 5.23,
+    "qc_pass": true,
+    "status": "ok",
+    "anchor_image_id": "181005403926718",
+    "camera": "Apple iPhone7",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.90821666666668,
+     41.78960555555555
+    ]
+   },
+   "properties": {
+    "id": "nbi_016261000000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "I-294 TRI STATE TOLL",
+    "facility_on": "55TH ST",
+    "estimate_single_view_m": 4.387,
+    "estimate_multi_view_m": 4.038,
+    "ground_truth_nbi_54b_m": 4.65,
+    "qc_pass": true,
+    "status": "ok",
+    "anchor_image_id": "560075165425687",
+    "camera": "Apple iPhone6SPlus",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.86747777777776,
+     41.761675
+    ]
+   },
+   "properties": {
+    "id": "nbi_016266500000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "I- 55 STEVENSON",
+    "facility_on": "US 12 20 45 LAGRAN",
+    "estimate_single_view_m": 2.936,
+    "estimate_multi_view_m": 6.708,
+    "ground_truth_nbi_54b_m": 4.45,
+    "qc_pass": false,
+    "status": "ok",
+    "anchor_image_id": "8944466745637431",
+    "camera": "none none",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.90219166666667,
+     41.75921111111112
+    ]
+   },
+   "properties": {
+    "id": "nbi_016267800000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "I- 55 STEVENSON",
+    "facility_on": "I-294 RAMPS I-55",
+    "estimate_single_view_m": null,
+    "estimate_multi_view_m": null,
+    "ground_truth_nbi_54b_m": 5.03,
+    "qc_pass": false,
+    "status": "no_structure_on_anchor",
+    "anchor_image_id": "814923162462698",
+    "camera": "unknown unknown",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.88438333333335,
+     41.947175
+    ]
+   },
+   "properties": {
+    "id": "nbi_016268100000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "US-45 RR YDS.& F.AVE",
+    "facility_on": "I-294 SB",
+    "estimate_single_view_m": null,
+    "estimate_multi_view_m": null,
+    "ground_truth_nbi_54b_m": 5.94,
+    "qc_pass": false,
+    "status": "no_structure_on_anchor",
+    "anchor_image_id": "750368598985101",
+    "camera": "unknown unknown",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.74124444444445,
+     41.84484722222223
+    ]
+   },
+   "properties": {
+    "id": "nbi_016272600000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "OGDEN AVE",
+    "facility_on": "SERVICE RD",
+    "estimate_single_view_m": 2.205,
+    "estimate_multi_view_m": 2.397,
+    "ground_truth_nbi_54b_m": 5.64,
+    "qc_pass": true,
+    "status": "ok",
+    "anchor_image_id": "243797117528737",
+    "camera": "Apple iPhone7,2",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.581975,
+     41.57779722222222
+    ]
+   },
+   "properties": {
+    "id": "nbi_016279500000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "I- 80 KINGERY",
+    "facility_on": "IL 394 NB",
+    "estimate_single_view_m": 7.452,
+    "estimate_multi_view_m": 7.606,
+    "ground_truth_nbi_54b_m": 7.19,
+    "qc_pass": true,
+    "status": "ok",
+    "anchor_image_id": "915159665726880",
+    "camera": "Apple iPhone6S",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.578925,
+     41.57918055555556
+    ]
+   },
+   "properties": {
+    "id": "nbi_016280400000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "I- 80 94",
+    "facility_on": "I- 94 WB TO IL 394",
+    "estimate_single_view_m": 6.568,
+    "estimate_multi_view_m": 7.976,
+    "ground_truth_nbi_54b_m": 7.62,
+    "qc_pass": true,
+    "status": "ok",
+    "anchor_image_id": "836060963783592",
+    "camera": "Apple iPhone6Plus",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.01754722222222,
+     42.153641666666665
+    ]
+   },
+   "properties": {
+    "id": "nbi_016321500000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "IL  53",
+    "facility_on": "LAKE COOK RD",
+    "estimate_single_view_m": 4.804,
+    "estimate_multi_view_m": 5.869,
+    "ground_truth_nbi_54b_m": 4.83,
+    "qc_pass": true,
+    "status": "ok",
+    "anchor_image_id": "2961467490763404",
+    "camera": "Apple iPhone6,1",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.17966666666668,
+     42.06667222222222
+    ]
+   },
+   "properties": {
+    "id": "nbi_016326300000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "I-90",
+    "facility_on": "Bartlett Road",
+    "estimate_single_view_m": 4.545,
+    "estimate_multi_view_m": 5.114,
+    "ground_truth_nbi_54b_m": 5.13,
+    "qc_pass": true,
+    "status": "ok",
+    "anchor_image_id": "2936132073374722",
+    "camera": "Apple iPhone7",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.62425277777777,
+     41.8916
+    ]
+   },
+   "properties": {
+    "id": "nbi_016612000000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "VARIOUS CITY STS",
+    "facility_on": "MICHIGAN AVE",
+    "estimate_single_view_m": null,
+    "estimate_multi_view_m": null,
+    "ground_truth_nbi_54b_m": 4.11,
+    "qc_pass": false,
+    "status": "no_structure_on_anchor",
+    "anchor_image_id": "311937976975381",
+    "camera": "unknown unknown",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.61731944444443,
+     41.884547222222224
+    ]
+   },
+   "properties": {
+    "id": "nbi_016614200000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "LOWER LEV. RANDOLPH",
+    "facility_on": "RANDOLPH STREET",
+    "estimate_single_view_m": null,
+    "estimate_multi_view_m": null,
+    "ground_truth_nbi_54b_m": 3.94,
+    "qc_pass": false,
+    "status": "no_structure_on_anchor",
+    "anchor_image_id": "294537642202344",
+    "camera": "unknown unknown",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.62357222222222,
+     41.89098888888889
+    ]
+   },
+   "properties": {
+    "id": "nbi_016617800000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "N. ST. CLAIR STREET",
+    "facility_on": "ILLINOIS ST",
+    "estimate_single_view_m": null,
+    "estimate_multi_view_m": null,
+    "ground_truth_nbi_54b_m": 5.44,
+    "qc_pass": false,
+    "status": "no_structure_on_anchor",
+    "anchor_image_id": "529113498090393",
+    "camera": "unknown unknown",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.89285000000001,
+     41.76076111111111
+    ]
+   },
+   "properties": {
+    "id": "nbi_016952000000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "I-55",
+    "facility_on": "SB I-294",
+    "estimate_single_view_m": null,
+    "estimate_multi_view_m": 2.407,
+    "ground_truth_nbi_54b_m": 4.88,
+    "qc_pass": true,
+    "status": "ok",
+    "anchor_image_id": "2635675156606243",
+    "camera": "none none",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.920975,
+     42.013305555555554
+    ]
+   },
+   "properties": {
+    "id": "nbi_016960600000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "Mt. Prospect Road",
+    "facility_on": "I-90 WB Jayne Adam",
+    "estimate_single_view_m": null,
+    "estimate_multi_view_m": null,
+    "ground_truth_nbi_54b_m": 6.53,
+    "qc_pass": false,
+    "status": "no_structure_on_anchor",
+    "anchor_image_id": "139303414852308",
+    "camera": "unknown unknown",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.86709444444443,
+     42.08720277777778
+    ]
+   },
+   "properties": {
+    "id": "nbi_016974600000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "LAKE AVE",
+    "facility_on": "I-294 NB",
+    "estimate_single_view_m": null,
+    "estimate_multi_view_m": null,
+    "ground_truth_nbi_54b_m": 4.34,
+    "qc_pass": false,
+    "status": "no_structure_on_anchor",
+    "anchor_image_id": "317714753201395",
+    "camera": "unknown unknown",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.86750555555555,
+     42.065913888888886
+    ]
+   },
+   "properties": {
+    "id": "nbi_016975000000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "CENTRAL RD",
+    "facility_on": "I-294 SB",
+    "estimate_single_view_m": null,
+    "estimate_multi_view_m": null,
+    "ground_truth_nbi_54b_m": 6.58,
+    "qc_pass": false,
+    "status": "no_structure_on_anchor",
+    "anchor_image_id": "1380520132329615",
+    "camera": "unknown unknown",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.87020833333332,
+     42.04380277777778
+    ]
+   },
+   "properties": {
+    "id": "nbi_016975600000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "BALLARD RD",
+    "facility_on": "I-294 NB",
+    "estimate_single_view_m": null,
+    "estimate_multi_view_m": null,
+    "ground_truth_nbi_54b_m": 4.34,
+    "qc_pass": false,
+    "status": "no_structure_on_anchor",
+    "anchor_image_id": "136404838545147",
+    "camera": "unknown unknown",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.86871388888888,
+     42.0392
+    ]
+   },
+   "properties": {
+    "id": "nbi_016975700000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "US 14 (DEMPSTER ST)",
+    "facility_on": "I-294 SB",
+    "estimate_single_view_m": null,
+    "estimate_multi_view_m": null,
+    "ground_truth_nbi_54b_m": 4.5,
+    "qc_pass": false,
+    "status": "no_structure_on_anchor",
+    "anchor_image_id": "527659224893768",
+    "camera": "unknown unknown",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.87426944444444,
+     41.965494444444445
+    ]
+   },
+   "properties": {
+    "id": "nbi_016978100000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "LAWRENCE AVE",
+    "facility_on": "I-294 SB",
+    "estimate_single_view_m": null,
+    "estimate_multi_view_m": null,
+    "ground_truth_nbi_54b_m": 4.34,
+    "qc_pass": false,
+    "status": "no_structure_on_anchor",
+    "anchor_image_id": "1113132065764314",
+    "camera": "unknown unknown",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.88393888888889,
+     41.94811111111111
+    ]
+   },
+   "properties": {
+    "id": "nbi_016978500000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "US-45 RR YDS.& F.AVE",
+    "facility_on": "I-294 NB",
+    "estimate_single_view_m": 6.864,
+    "estimate_multi_view_m": 8.725,
+    "ground_truth_nbi_54b_m": 5.94,
+    "qc_pass": false,
+    "status": "ok",
+    "anchor_image_id": "322669965891226",
+    "camera": "Apple iPhone5S",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.91965,
+     41.93145277777778
+    ]
+   },
+   "properties": {
+    "id": "nbi_016978800000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "GRAND AVE",
+    "facility_on": "I-294 NB",
+    "estimate_single_view_m": null,
+    "estimate_multi_view_m": null,
+    "ground_truth_nbi_54b_m": 4.62,
+    "qc_pass": false,
+    "status": "no_structure_on_anchor",
+    "anchor_image_id": "2606011566211485",
+    "camera": "unknown unknown",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.91911388888889,
+     41.87764166666667
+    ]
+   },
+   "properties": {
+    "id": "nbi_016979800000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "I290",
+    "facility_on": "I-294 SB",
+    "estimate_single_view_m": null,
+    "estimate_multi_view_m": null,
+    "ground_truth_nbi_54b_m": 7.32,
+    "qc_pass": false,
+    "status": "no_structure_on_anchor",
+    "anchor_image_id": "1808288946018324",
+    "camera": "unknown unknown",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.79894722222222,
+     41.71143333333334
+    ]
+   },
+   "properties": {
+    "id": "nbi_016983100000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "ILL 43 (HARLEM AVE)",
+    "facility_on": "I-294 SB",
+    "estimate_single_view_m": null,
+    "estimate_multi_view_m": null,
+    "ground_truth_nbi_54b_m": 7.62,
+    "qc_pass": false,
+    "status": "no_structure_on_anchor",
+    "anchor_image_id": "779932576226615",
+    "camera": "unknown unknown",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.77964166666666,
+     41.683213888888886
+    ]
+   },
+   "properties": {
+    "id": "nbi_016984100000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "115TH ST",
+    "facility_on": "I-294 NB",
+    "estimate_single_view_m": null,
+    "estimate_multi_view_m": null,
+    "ground_truth_nbi_54b_m": 4.34,
+    "qc_pass": false,
+    "status": "no_structure_on_anchor",
+    "anchor_image_id": "661869257978208",
+    "camera": "unknown unknown",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.92385,
+     41.90655555555556
+    ]
+   },
+   "properties": {
+    "id": "nbi_022000800000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "IL  64",
+    "facility_on": "I-290 NB",
+    "estimate_single_view_m": null,
+    "estimate_multi_view_m": null,
+    "ground_truth_nbi_54b_m": 4.32,
+    "qc_pass": false,
+    "status": "no_structure_on_anchor",
+    "anchor_image_id": "1385714961806830",
+    "camera": "unknown unknown",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.96011111111112,
+     41.92681666666667
+    ]
+   },
+   "properties": {
+    "id": "nbi_022010100000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "GRAND AVE",
+    "facility_on": "I-290 NB",
+    "estimate_single_view_m": null,
+    "estimate_multi_view_m": null,
+    "ground_truth_nbi_54b_m": 4.65,
+    "qc_pass": false,
+    "status": "no_structure_on_anchor",
+    "anchor_image_id": "173193241398071",
+    "camera": "unknown unknown",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.95791111111112,
+     41.85735
+    ]
+   },
+   "properties": {
+    "id": "nbi_022011800000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "IL  56",
+    "facility_on": "IL  83 NB",
+    "estimate_single_view_m": 5.947,
+    "estimate_multi_view_m": 6.959,
+    "ground_truth_nbi_54b_m": 4.8,
+    "qc_pass": true,
+    "status": "ok",
+    "anchor_image_id": "486449785910514",
+    "camera": "Apple iPhone7",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.95939166666668,
+     41.96088888888889
+    ]
+   },
+   "properties": {
+    "id": "nbi_022014200000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "IL  19",
+    "facility_on": "IL  83",
+    "estimate_single_view_m": 5.95,
+    "estimate_multi_view_m": 7.136,
+    "ground_truth_nbi_54b_m": 5.28,
+    "qc_pass": true,
+    "status": "ok",
+    "anchor_image_id": "1190540998058097",
+    "camera": "Apple iPhone 8",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.94669722222223,
+     41.79901388888889
+    ]
+   },
+   "properties": {
+    "id": "nbi_022015500000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "RR - BNSF  BRLGTN RD",
+    "facility_on": "IL  83",
+    "estimate_single_view_m": null,
+    "estimate_multi_view_m": null,
+    "ground_truth_nbi_54b_m": 7.01,
+    "qc_pass": false,
+    "status": "no_structure_on_anchor",
+    "anchor_image_id": "174207467955788",
+    "camera": "unknown unknown",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.92534444444445,
+     41.85092222222222
+    ]
+   },
+   "properties": {
+    "id": "nbi_022680300000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "Tollway Ramps M & N",
+    "facility_on": "Windsor Drive",
+    "estimate_single_view_m": 4.368,
+    "estimate_multi_view_m": 4.602,
+    "ground_truth_nbi_54b_m": 4.88,
+    "qc_pass": true,
+    "status": "ok",
+    "anchor_image_id": "2782553348724482",
+    "camera": "Apple iPhone7Plus",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.92536666666668,
+     41.86165555555556
+    ]
+   },
+   "properties": {
+    "id": "nbi_022993400000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "ILL 38 (ROOSEVELT RD",
+    "facility_on": "I-88 EB",
+    "estimate_single_view_m": null,
+    "estimate_multi_view_m": null,
+    "ground_truth_nbi_54b_m": 4.45,
+    "qc_pass": false,
+    "status": "no_structure_on_anchor",
+    "anchor_image_id": "155001503256440",
+    "camera": "unknown unknown",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.037825,
+     41.93241666666666
+    ]
+   },
+   "properties": {
+    "id": "nbi_022995600000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "ARMY TRAIL RD.",
+    "facility_on": "I-355 SB",
+    "estimate_single_view_m": null,
+    "estimate_multi_view_m": null,
+    "ground_truth_nbi_54b_m": 4.95,
+    "qc_pass": false,
+    "status": "estimate_failed",
+    "anchor_image_id": "964071031060055",
+    "camera": "unknown unknown",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.04164722222222,
+     41.85933611111111
+    ]
+   },
+   "properties": {
+    "id": "nbi_022996200000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "IL-38",
+    "facility_on": "I-355 NB & SB",
+    "estimate_single_view_m": 4.848,
+    "estimate_multi_view_m": 5.531,
+    "ground_truth_nbi_54b_m": 4.98,
+    "qc_pass": true,
+    "status": "ok",
+    "anchor_image_id": "478696086889702",
+    "camera": "Apple iPhone7",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.03570555555555,
+     41.75046388888889
+    ]
+   },
+   "properties": {
+    "id": "nbi_022998500000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "I-355",
+    "facility_on": "75TH. ST. EB & WB",
+    "estimate_single_view_m": null,
+    "estimate_multi_view_m": null,
+    "ground_truth_nbi_54b_m": 5.0,
+    "qc_pass": false,
+    "status": "no_structure_on_anchor",
+    "anchor_image_id": "5562398400497885",
+    "camera": "unknown unknown",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.03491388888888,
+     41.73608055555555
+    ]
+   },
+   "properties": {
+    "id": "nbi_022998600000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "I-355",
+    "facility_on": "83RD.ST.",
+    "estimate_single_view_m": 5.188,
+    "estimate_multi_view_m": 5.245,
+    "ground_truth_nbi_54b_m": 5.16,
+    "qc_pass": true,
+    "status": "ok",
+    "anchor_image_id": "463787291383801",
+    "camera": "Apple iPhone5",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.12533333333333,
+     41.80599166666666
+    ]
+   },
+   "properties": {
+    "id": "nbi_022999100000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "FREEDOM DRIVE",
+    "facility_on": "I88 WB RON REAGAN",
+    "estimate_single_view_m": null,
+    "estimate_multi_view_m": null,
+    "ground_truth_nbi_54b_m": 4.98,
+    "qc_pass": false,
+    "status": "no_structure_on_anchor",
+    "anchor_image_id": "376970607194869",
+    "camera": "unknown unknown",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.27156944444444,
+     41.4622
+    ]
+   },
+   "properties": {
+    "id": "nbi_032010000000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "FAS285/CH5/RIDGE RD",
+    "facility_on": "FAI  80 (EB & WB)",
+    "estimate_single_view_m": null,
+    "estimate_multi_view_m": null,
+    "ground_truth_nbi_54b_m": 4.34,
+    "qc_pass": false,
+    "status": "no_structure_on_anchor",
+    "anchor_image_id": "1146646926567609",
+    "camera": "unknown unknown",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.29649444444445,
+     42.13871111111112
+    ]
+   },
+   "properties": {
+    "id": "nbi_045304800000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "IL 31",
+    "facility_on": "Longmeadow Parkway",
+    "estimate_single_view_m": null,
+    "estimate_multi_view_m": null,
+    "ground_truth_nbi_54b_m": 5.05,
+    "qc_pass": false,
+    "status": "estimate_failed",
+    "anchor_image_id": "974870493249007",
+    "camera": "unknown unknown",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.16845,
+     41.58383888888889
+    ]
+   },
+   "properties": {
+    "id": "nbi_099001700000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "US 30",
+    "facility_on": "I- 55 NB",
+    "estimate_single_view_m": null,
+    "estimate_multi_view_m": null,
+    "ground_truth_nbi_54b_m": 4.5,
+    "qc_pass": false,
+    "status": "no_structure_on_anchor",
+    "anchor_image_id": "588959323775875",
+    "camera": "unknown unknown",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.99174444444445,
+     41.51997222222222
+    ]
+   },
+   "properties": {
+    "id": "nbi_099006800000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "RR & US-30",
+    "facility_on": "I- 80 WB",
+    "estimate_single_view_m": 6.88,
+    "estimate_multi_view_m": 8.866,
+    "ground_truth_nbi_54b_m": 7.01,
+    "qc_pass": true,
+    "status": "ok",
+    "anchor_image_id": "228871288577749",
+    "camera": "Apple iPhone5",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.09869722222221,
+     41.512483333333336
+    ]
+   },
+   "properties": {
+    "id": "nbi_099018800000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "I- 80",
+    "facility_on": "CENTER ST NB",
+    "estimate_single_view_m": null,
+    "estimate_multi_view_m": null,
+    "ground_truth_nbi_54b_m": 5.0,
+    "qc_pass": false,
+    "status": "no_structure_on_anchor",
+    "anchor_image_id": "997666594836044",
+    "camera": "unknown unknown",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.96230277777778,
+     41.53847222222222
+    ]
+   },
+   "properties": {
+    "id": "nbi_099031800000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "I- 80",
+    "facility_on": "I-355 SB TO I-80 E",
+    "estimate_single_view_m": 5.33,
+    "estimate_multi_view_m": 6.006,
+    "ground_truth_nbi_54b_m": 6.81,
+    "qc_pass": true,
+    "status": "ok",
+    "anchor_image_id": "540972718252425",
+    "camera": "GoPro HERO11 Black",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.01470833333333,
+     41.63245
+    ]
+   },
+   "properties": {
+    "id": "nbi_099033300000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "I-355",
+    "facility_on": "IL 171",
+    "estimate_single_view_m": null,
+    "estimate_multi_view_m": null,
+    "ground_truth_nbi_54b_m": 4.98,
+    "qc_pass": false,
+    "status": "no_structure_on_anchor",
+    "anchor_image_id": "151597150308578",
+    "camera": "unknown unknown",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.03041666666667,
+     41.70740833333333
+    ]
+   },
+   "properties": {
+    "id": "nbi_099301300000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "I-355  I-55  RAMPS",
+    "facility_on": "I- 55 SB TO I-355",
+    "estimate_single_view_m": null,
+    "estimate_multi_view_m": null,
+    "ground_truth_nbi_54b_m": 5.03,
+    "qc_pass": false,
+    "status": "no_structure_on_anchor",
+    "anchor_image_id": "850426735682190",
+    "camera": "unknown unknown",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.19775277777778,
+     41.50267222222222
+    ]
+   },
+   "properties": {
+    "id": "nbi_099464200000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "I- 55",
+    "facility_on": "IL  59 SB",
+    "estimate_single_view_m": 6.28,
+    "estimate_multi_view_m": 4.981,
+    "ground_truth_nbi_54b_m": 5.46,
+    "qc_pass": true,
+    "status": "ok",
+    "anchor_image_id": "483094774894732",
+    "camera": "none none",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.03088055555556,
+     41.704225
+    ]
+   },
+   "properties": {
+    "id": "nbi_099994400000000",
+    "feature_type": "bridge_vertical_underclearance",
+    "feature_under": "I-55",
+    "facility_on": "I-355 NB",
+    "estimate_single_view_m": null,
+    "estimate_multi_view_m": null,
+    "ground_truth_nbi_54b_m": 5.13,
+    "qc_pass": false,
+    "status": "estimate_failed",
+    "anchor_image_id": "2926815380821069",
+    "camera": "unknown unknown",
+    "method": "Mask2Former (Vistas) + MapAnything + RANSAC road plane",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.72442,
+     41.702072
+    ]
+   },
+   "properties": {
+    "id": "stop_1144279403285728",
+    "feature_type": "stop_sign_width",
+    "estimate_single_view_m": null,
+    "estimate_multi_view_m": null,
+    "reference_mutcd_m": [
+     0.762,
+     0.914
+    ],
+    "status": "no_sign_found",
+    "method": "Mask2Former (Vistas) + MapAnything depth, width = px * depth / fx",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.7243,
+     41.702076
+    ]
+   },
+   "properties": {
+    "id": "stop_1144279459952389",
+    "feature_type": "stop_sign_width",
+    "estimate_single_view_m": null,
+    "estimate_multi_view_m": null,
+    "reference_mutcd_m": [
+     0.762,
+     0.914
+    ],
+    "status": "no_sign_found",
+    "method": "Mask2Former (Vistas) + MapAnything depth, width = px * depth / fx",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.72424,
+     41.702217
+    ]
+   },
+   "properties": {
+    "id": "stop_8722247321136147",
+    "feature_type": "stop_sign_width",
+    "estimate_single_view_m": null,
+    "estimate_multi_view_m": null,
+    "reference_mutcd_m": [
+     0.762,
+     0.914
+    ],
+    "status": "no_sign_found",
+    "method": "Mask2Former (Vistas) + MapAnything depth, width = px * depth / fx",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.72096,
+     41.7013
+    ]
+   },
+   "properties": {
+    "id": "stop_1118992076014492",
+    "feature_type": "stop_sign_width",
+    "estimate_single_view_m": 0.951,
+    "estimate_multi_view_m": 0.924,
+    "reference_mutcd_m": [
+     0.762,
+     0.914
+    ],
+    "status": "ok",
+    "method": "Mask2Former (Vistas) + MapAnything depth, width = px * depth / fx",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.71595,
+     41.702324
+    ]
+   },
+   "properties": {
+    "id": "stop_404177115837202",
+    "feature_type": "stop_sign_width",
+    "estimate_single_view_m": null,
+    "estimate_multi_view_m": null,
+    "reference_mutcd_m": [
+     0.762,
+     0.914
+    ],
+    "status": "no_sign_found",
+    "method": "Mask2Former (Vistas) + MapAnything depth, width = px * depth / fx",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.721,
+     41.702217
+    ]
+   },
+   "properties": {
+    "id": "stop_1578774656311185",
+    "feature_type": "stop_sign_width",
+    "estimate_single_view_m": 1.037,
+    "estimate_multi_view_m": 0.825,
+    "reference_mutcd_m": [
+     0.762,
+     0.914
+    ],
+    "status": "ok",
+    "method": "Mask2Former (Vistas) + MapAnything depth, width = px * depth / fx",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.65785,
+     41.973225
+    ]
+   },
+   "properties": {
+    "id": "stop_7915141545184238",
+    "feature_type": "stop_sign_width",
+    "estimate_single_view_m": 1.09,
+    "estimate_multi_view_m": 0.903,
+    "reference_mutcd_m": [
+     0.762,
+     0.914
+    ],
+    "status": "ok",
+    "method": "Mask2Former (Vistas) + MapAnything depth, width = px * depth / fx",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.6687,
+     41.98181
+    ]
+   },
+   "properties": {
+    "id": "stop_7462794847171421",
+    "feature_type": "stop_sign_width",
+    "estimate_single_view_m": null,
+    "estimate_multi_view_m": null,
+    "reference_mutcd_m": [
+     0.762,
+     0.914
+    ],
+    "status": "no_sign_found",
+    "method": "Mask2Former (Vistas) + MapAnything depth, width = px * depth / fx",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.66826,
+     41.976974
+    ]
+   },
+   "properties": {
+    "id": "stop_7462794853838087",
+    "feature_type": "stop_sign_width",
+    "estimate_single_view_m": null,
+    "estimate_multi_view_m": null,
+    "reference_mutcd_m": [
+     0.762,
+     0.914
+    ],
+    "status": "no_sign_found",
+    "method": "Mask2Former (Vistas) + MapAnything depth, width = px * depth / fx",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.668465,
+     41.98159
+    ]
+   },
+   "properties": {
+    "id": "stop_7462794863838086",
+    "feature_type": "stop_sign_width",
+    "estimate_single_view_m": null,
+    "estimate_multi_view_m": null,
+    "reference_mutcd_m": [
+     0.762,
+     0.914
+    ],
+    "status": "no_sign_found",
+    "method": "Mask2Former (Vistas) + MapAnything depth, width = px * depth / fx",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.66844,
+     41.977207
+    ]
+   },
+   "properties": {
+    "id": "stop_7462794873838085",
+    "feature_type": "stop_sign_width",
+    "estimate_single_view_m": null,
+    "estimate_multi_view_m": null,
+    "reference_mutcd_m": [
+     0.762,
+     0.914
+    ],
+    "status": "no_sign_found",
+    "method": "Mask2Former (Vistas) + MapAnything depth, width = px * depth / fx",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.86103,
+     41.882072
+    ]
+   },
+   "properties": {
+    "id": "stop_418244051260047",
+    "feature_type": "stop_sign_width",
+    "estimate_single_view_m": 1.253,
+    "estimate_multi_view_m": 1.194,
+    "reference_mutcd_m": [
+     0.762,
+     0.914
+    ],
+    "status": "ok",
+    "method": "Mask2Former (Vistas) + MapAnything depth, width = px * depth / fx",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.86129,
+     41.882156
+    ]
+   },
+   "properties": {
+    "id": "stop_418244054593380",
+    "feature_type": "stop_sign_width",
+    "estimate_single_view_m": 0.745,
+    "estimate_multi_view_m": 1.002,
+    "reference_mutcd_m": [
+     0.762,
+     0.914
+    ],
+    "status": "ok",
+    "method": "Mask2Former (Vistas) + MapAnything depth, width = px * depth / fx",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.86104,
+     41.882164
+    ]
+   },
+   "properties": {
+    "id": "stop_418244064593379",
+    "feature_type": "stop_sign_width",
+    "estimate_single_view_m": 1.253,
+    "estimate_multi_view_m": 1.15,
+    "reference_mutcd_m": [
+     0.762,
+     0.914
+    ],
+    "status": "ok",
+    "method": "Mask2Former (Vistas) + MapAnything depth, width = px * depth / fx",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.63003,
+     41.77646
+    ]
+   },
+   "properties": {
+    "id": "stop_1012328850318922",
+    "feature_type": "stop_sign_width",
+    "estimate_single_view_m": 0.881,
+    "estimate_multi_view_m": 1.161,
+    "reference_mutcd_m": [
+     0.762,
+     0.914
+    ],
+    "status": "ok",
+    "method": "Mask2Former (Vistas) + MapAnything depth, width = px * depth / fx",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.63,
+     41.776554
+    ]
+   },
+   "properties": {
+    "id": "stop_1012328866985587",
+    "feature_type": "stop_sign_width",
+    "estimate_single_view_m": 0.911,
+    "estimate_multi_view_m": 0.988,
+    "reference_mutcd_m": [
+     0.762,
+     0.914
+    ],
+    "status": "ok",
+    "method": "Mask2Former (Vistas) + MapAnything depth, width = px * depth / fx",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.64948,
+     41.82658
+    ]
+   },
+   "properties": {
+    "id": "stop_1112856770018450",
+    "feature_type": "stop_sign_width",
+    "estimate_single_view_m": 0.7,
+    "estimate_multi_view_m": 0.945,
+    "reference_mutcd_m": [
+     0.762,
+     0.914
+    ],
+    "status": "ok",
+    "method": "Mask2Former (Vistas) + MapAnything depth, width = px * depth / fx",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.64768,
+     41.830692
+    ]
+   },
+   "properties": {
+    "id": "stop_1169701390711029",
+    "feature_type": "stop_sign_width",
+    "estimate_single_view_m": 0.621,
+    "estimate_multi_view_m": 0.835,
+    "reference_mutcd_m": [
+     0.762,
+     0.914
+    ],
+    "status": "ok",
+    "method": "Mask2Former (Vistas) + MapAnything depth, width = px * depth / fx",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.65029,
+     41.82795
+    ]
+   },
+   "properties": {
+    "id": "stop_1708779133223418",
+    "feature_type": "stop_sign_width",
+    "estimate_single_view_m": null,
+    "estimate_multi_view_m": 0.803,
+    "reference_mutcd_m": [
+     0.762,
+     0.914
+    ],
+    "status": "ok",
+    "method": "Mask2Former (Vistas) + MapAnything depth, width = px * depth / fx",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.64124,
+     41.82871
+    ]
+   },
+   "properties": {
+    "id": "stop_322266220891073",
+    "feature_type": "stop_sign_width",
+    "estimate_single_view_m": 0.653,
+    "estimate_multi_view_m": 0.933,
+    "reference_mutcd_m": [
+     0.762,
+     0.914
+    ],
+    "status": "ok",
+    "method": "Mask2Former (Vistas) + MapAnything depth, width = px * depth / fx",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.64773,
+     41.8264
+    ]
+   },
+   "properties": {
+    "id": "stop_338034422327126",
+    "feature_type": "stop_sign_width",
+    "estimate_single_view_m": 0.87,
+    "estimate_multi_view_m": 1.065,
+    "reference_mutcd_m": [
+     0.762,
+     0.914
+    ],
+    "status": "ok",
+    "method": "Mask2Former (Vistas) + MapAnything depth, width = px * depth / fx",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.64757,
+     41.82548
+    ]
+   },
+   "properties": {
+    "id": "stop_338034425660459",
+    "feature_type": "stop_sign_width",
+    "estimate_single_view_m": 0.81,
+    "estimate_multi_view_m": 1.106,
+    "reference_mutcd_m": [
+     0.762,
+     0.914
+    ],
+    "status": "ok",
+    "method": "Mask2Former (Vistas) + MapAnything depth, width = px * depth / fx",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.78255,
+     41.817528
+    ]
+   },
+   "properties": {
+    "id": "stop_459141723253726",
+    "feature_type": "stop_sign_width",
+    "estimate_single_view_m": 0.778,
+    "estimate_multi_view_m": 0.931,
+    "reference_mutcd_m": [
+     0.762,
+     0.914
+    ],
+    "status": "ok",
+    "method": "Mask2Former (Vistas) + MapAnything depth, width = px * depth / fx",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.7827,
+     41.81815
+    ]
+   },
+   "properties": {
+    "id": "stop_815907530452227",
+    "feature_type": "stop_sign_width",
+    "estimate_single_view_m": null,
+    "estimate_multi_view_m": null,
+    "reference_mutcd_m": [
+     0.762,
+     0.914
+    ],
+    "status": "no_sign_found",
+    "method": "Mask2Former (Vistas) + MapAnything depth, width = px * depth / fx",
+    "source_imagery": "Mapillary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.78255,
+     41.819923
+    ]
+   },
+   "properties": {
+    "id": "stop_812226880821983",
+    "feature_type": "stop_sign_width",
+    "estimate_single_view_m": null,
+    "estimate_multi_view_m": null,
+    "reference_mutcd_m": [
+     0.762,
+     0.914
+    ],
+    "status": "no_sign_found",
+    "method": "Mask2Former (Vistas) + MapAnything depth, width = px * depth / fx",
+    "source_imagery": "Mapillary"
+   }
+  }
+ ]
+}
