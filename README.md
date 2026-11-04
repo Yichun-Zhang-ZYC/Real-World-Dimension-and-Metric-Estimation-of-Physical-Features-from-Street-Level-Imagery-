@@ -67,7 +67,7 @@ results/
 
 ```bash
 cd paper/build
-pip install numpy pandas matplotlib scikit-learn
+pip install numpy pandas matplotlib scipy scikit-learn
 DATADIR=data/ FIGDIR=figs/ python figures.py      # core figures
 DATADIR=data/ FIGDIR=figs/ python figures_v2.py   # pipeline v2 figures
 DATADIR=data/ FIGDIR=figs/ python fig_metros2.py  # external-metro figure
