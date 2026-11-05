@@ -134,7 +134,8 @@ function unifyMetrics(m) {
   var R = [[m.held, 'raw held-out error vs 0.92 m on benchmark: no overfitting', 'mean abs. error on held-out vs 0.92 m on benchmark: no overfitting'],
     [m.held, 'with plausibility + camera rules, 84% of estimates kept', 'mean abs. error after plausibility + camera rules, 84% kept'],
     [m.held, '0.62 m error at 57% coverage', '0.62 m mean abs. error at 57% coverage'],
-    [m.metros, 'accepted single-view error (Chicago: 0.68 m), 80% within 1 m', 'mean abs. error, accepted single-view (Chicago 0.68 m); median 0.51 m, 80% within 1 m'],
+    [m.metros, 'accepted single-view error (Chicago: 0.68 m), 80% within 1 m', 'mean abs. error (median 0.51 m); Chicago: 0.68 m'],
+    [m.metros, 'mean abs. error, accepted single-view (Chicago 0.68 m); median 0.51 m, 80% within 1 m', 'mean abs. error (median 0.51 m); Chicago: 0.68 m'],
     [m.v2, 'more pass QC after undistortion; MAE 0.92 → 0.80 m', 'more pass QC after undistortion; mean abs. error 0.92 → 0.80 m']];
   R.forEach(function (r) { if (r[0]) r[0].replaceAllText(r[1], r[2]); });
 }
