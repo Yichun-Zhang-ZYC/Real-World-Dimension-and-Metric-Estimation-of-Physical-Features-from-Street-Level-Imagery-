@@ -21,9 +21,9 @@ function buildDeck() {
   var prev = JSON.parse(props.getProperty('generated') || '[]');
   PRES.getSlides().forEach(function (sl) { if (prev.indexOf(sl.getObjectId()) >= 0) sl.remove(); });
   var made = [];
-  SLIDES.forEach(function (fn) { var sl = newSlide(); fn(sl); made.push(sl.getObjectId()); });
-  if (PRES.getSlides().length > made.length) { var d = newSlide(); divider(d); made.push(d.getObjectId()); }
-  props.setProperty('generated', JSON.stringify(made));
+  var save = function () { props.setProperty('generated', JSON.stringify(made)); };
+  SLIDES.forEach(function (fn) { var sl = newSlide(); made.push(sl.getObjectId()); save(); fn(sl); });
+  if (PRES.getSlides().length > made.length) { var d = newSlide(); made.push(d.getObjectId()); save(); divider(d); }
 }
 
 /* ---------- primitives ---------- */
@@ -109,7 +109,7 @@ function footer(sl, sec) {
 }
 function title(sl, str, owner) {
   rect(sl, 28, 26, 4, 34, C.maroon);
-  text(sl, 38, 18, owner ? 560 : 650, 50, str, { font: HF, size: 20, bold: true, color: C.ink, valign: 'MIDDLE', ls: 95 });
+  text(sl, 38, 18, owner ? 560 : 650, 50, str, { font: HF, size: 20, bold: true, color: C.ink, valign: 'MIDDLE', ls: 100 });
   if (owner) tag(sl, owner);
 }
 function tag(sl, who) {
@@ -164,7 +164,7 @@ var SLIDES = [
     sl.getBackground().setSolidFill(C.ink);
     rect(sl, 0, 0, 8, 405, C.maroon);
     text(sl, 40, 56, 360, 18, 'HERE TECHNOLOGIES  ×  UCHICAGO CAPSTONE', { font: HF, size: 9, bold: true, color: '#E39B9B' });
-    text(sl, 40, 80, 360, 120, 'Measuring Bridge Clearance from Street-Level Imagery', { font: HF, size: 28, bold: true, color: C.white, ls: 95 });
+    text(sl, 40, 80, 360, 120, 'Measuring Bridge Clearance from Street-Level Imagery', { font: HF, size: 28, bold: true, color: C.white, ls: 100 });
     text(sl, 40, 198, 350, 44, 'Real-world dimension estimation with metric 3D reconstruction and computer vision', { size: 12, color: '#C9CDD2', ls: 115 });
     line(sl, 40, 256, 120, 256, C.maroon, 2);
     text(sl, 40, 266, 360, 20, 'Kely Zhang  ·  Anna Chen  ·  Adaora Ezike', { font: HF, size: 11, bold: true, color: C.white });
