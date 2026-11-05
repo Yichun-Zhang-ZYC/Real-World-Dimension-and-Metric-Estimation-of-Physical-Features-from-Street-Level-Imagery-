@@ -78,6 +78,7 @@ function restructure() {
     if (cfg[2]) setTag(sl, cfg[2]);
   });
   editPipelineStep(map.pipe);
+  unifyMetrics(map);
   updateNotes(map);
 }
 
@@ -128,6 +129,14 @@ function editPipelineStep(sl) {
     var t = sh.getText().asString().trim();
     if (t === 'Bridge + road masks (Mask2Former, Vistas)') { sh.getText().setText('Bridge + road masks (Mask2Former; SAM3 tested)'); style(sh.getText(), { size: 9.5 }); }
   });
+}
+function unifyMetrics(m) {
+  var R = [[m.held, 'raw held-out error vs 0.92 m on benchmark: no overfitting', 'mean abs. error on held-out vs 0.92 m on benchmark: no overfitting'],
+    [m.held, 'with plausibility + camera rules, 84% of estimates kept', 'mean abs. error after plausibility + camera rules, 84% kept'],
+    [m.held, '0.62 m error at 57% coverage', '0.62 m mean abs. error at 57% coverage'],
+    [m.metros, 'accepted single-view error (Chicago: 0.68 m), 80% within 1 m', 'mean abs. error, accepted single-view (Chicago 0.68 m); median 0.51 m, 80% within 1 m'],
+    [m.v2, 'more pass QC after undistortion; MAE 0.92 → 0.80 m', 'more pass QC after undistortion; mean abs. error 0.92 → 0.80 m']];
+  R.forEach(function (r) { if (r[0]) r[0].replaceAllText(r[1], r[2]); });
 }
 function setNotes(sl, str) { if (sl) sl.getNotesPage().getSpeakerNotesShape().getText().setText(str); }
 function updateNotes(m) {
@@ -242,7 +251,7 @@ function buildCompare(sl) {
     ['MapAnything', 'Multi', '32', '1.09 m', '0.58 m'],
     ['Depth Anything 3', 'Single', '35', '1.21 m', '0.73 m'],
     ['Depth Anything 3', 'Multi', '32', '0.99 m', '0.55 m'],
-    ['VGGT (GPS-scaled)', 'Multi', '35', '1.58 m', '1.20 m']];
+    ['VGGT', 'Multi', '35', '1.58 m', '1.20 m']];
   var tb = sl.insertTable(rows.length, 5, 38 * S, 84 * S, 420 * S, 190 * S);
   rows.forEach(function (r, i) {
     r.forEach(function (v, j) {
@@ -254,7 +263,7 @@ function buildCompare(sl) {
       cell.getFill().setSolidFill(i === 0 ? C.ink : (i === 5 ? C.orangeLt : (i % 2 ? C.white : C.card)));
     });
   });
-  text(sl, 38, 282, 420, 30, 'All on QC-passing bridges of the same 80-bridge benchmark, same frames, masks and measurement', { size: 8.5, color: C.mute });
+  text(sl, 38, 318, 420, 30, 'QC-passing bridges of the same 80-bridge benchmark; same frames, masks and measurement. VGGT is GPS-scaled, multi-view only.', { size: 8.5, color: C.mute });
   var t = [['MapAnything ≈ DA3', 'No significant difference on identical bridges', C.green], ['VGGT trails', '2.2× MapAnything’s error on the same 32 bridges', C.orange], ['Default: MapAnything single-view', 'Needs one frame, ≈ 6 s per bridge', C.maroon]];
   t.forEach(function (r, i) {
     var y = 84 + i * 90;
