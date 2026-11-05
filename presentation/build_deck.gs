@@ -1,4 +1,5 @@
 /**
+* WARNING (added later): do not re-run buildDeck() after teammates have edited the deck; use restructure_deck.gs instead.
  * Builds the final capstone presentation inside the bound Google Slides deck.
  * Run buildDeck() from Extensions > Apps Script. Re-running replaces the slides it generated before;
  * slides it did not generate are kept after a divider.
