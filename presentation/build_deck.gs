@@ -19,7 +19,11 @@ function buildDeck() {
   S = PRES.getPageWidth() / 720;
   var props = PropertiesService.getDocumentProperties();
   var prev = JSON.parse(props.getProperty('generated') || '[]');
-  PRES.getSlides().forEach(function (sl) { if (prev.indexOf(sl.getObjectId()) >= 0) sl.remove(); });
+  PRES.getSlides().forEach(function (sl) {
+    var orphan = sl.getShapes().some(function (sh) { return sh.getText && sh.getText().asString().indexOf('UCHICAGO CAPSTONE') >= 0; });
+    if (prev.indexOf(sl.getObjectId()) >= 0 || orphan) sl.remove();
+  });
+  PAGE = 1;
   var made = [];
   var save = function () { props.setProperty('generated', JSON.stringify(made)); };
   SLIDES.forEach(function (fn) { var sl = newSlide(); made.push(sl.getObjectId()); save(); fn(sl); });
@@ -178,7 +182,7 @@ var SLIDES = [
   // 2. Agenda
   function (sl) {
     title(sl, 'Agenda');
-    var items = [['Project Overview', 'Business problem and research question'], ['Data', 'Mapillary imagery + federal bridge inventory'], ['Pipeline', 'Segment, reconstruct, measure, decide'], ['Results', 'Accuracy, coverage, generalization'], ['Impact', 'Recommendation for HERE']];
+    var items = [['Overview', 'Business problem and research question'], ['Data', 'Mapillary imagery + federal bridge inventory'], ['Pipeline', 'Segment, reconstruct, measure, decide'], ['Results', 'Accuracy, coverage, generalization'], ['Impact', 'Recommendation for HERE']];
     items.forEach(function (it, i) {
       var x = 38 + i * 130;
       text(sl, x, 110, 120, 40, '0' + (i + 1), { font: HF, size: 30, bold: true, color: i === 0 ? C.maroon : '#C4C8CD' });
@@ -222,9 +226,9 @@ var SLIDES = [
   // 5. Data sources
   function (sl) {
     title(sl, 'Three sources build a benchmark with official ground truth');
-    card(sl, 38, 92, 190, 170, 'Mapillary imagery', '• Crowd-sourced sequences\n• GPS, heading, capture time\n• Camera parameters (focal, k1, k2)\n• 2015–2026 captures', { bar: C.blue });
+    card(sl, 38, 92, 190, 170, 'Mapillary imagery', '• Crowd-sourced sequences\n• GPS, heading, capture time\n• Camera lens parameters\n• Captured 2015–2026', { bar: C.blue });
     text(sl, 228, 150, 40, 50, '+', { font: HF, size: 30, bold: true, color: C.ink, align: 'CENTER', valign: 'MIDDLE' });
-    card(sl, 268, 92, 190, 170, 'FHWA Bridge Inventory', '• NBI 2025, Item 54B\n• Minimum vertical clearance\n• Highway underpasses, 3.5–8.5 m\n• Illinois, Indiana, Wisconsin', { bar: C.maroon });
+    card(sl, 268, 92, 190, 170, 'FHWA Bridge Inventory', '• NBI 2025, Item 54B\n• Minimum vertical clearance\n• Underpasses, 3.5–8.5 m\n• Illinois, Indiana, Wisconsin', { bar: C.maroon });
     text(sl, 458, 150, 40, 50, '=', { font: HF, size: 30, bold: true, color: C.ink, align: 'CENTER', valign: 'MIDDLE' });
     rect(sl, 498, 92, 184, 170, C.ink, SlidesApp.ShapeType.ROUND_RECTANGLE);
     text(sl, 510, 100, 160, 22, 'Evaluation sets', { font: HF, size: 11.5, bold: true, color: C.white });
@@ -252,7 +256,7 @@ var SLIDES = [
   // 7. Pipeline overview
   function (sl) {
     title(sl, 'One modular pipeline: only the 3D backbone changes');
-    var steps = [['Retrieve', 'Mapillary sequence approaching the bridge'], ['Segment', 'Bridge + road masks (Mask2Former, Vistas)'], ['Reconstruct', 'Metric 3D points from 1 or 4 frames'], ['Measure', 'Underside to RANSAC road plane'], ['Quality check', 'Camera height, columns, distance'], ['Decide', 'Accept / review / reject, GeoJSON out']];
+    var steps = [['Retrieve', 'Mapillary sequence approaching the bridge'], ['Segment', 'Bridge + road masks (Mask2Former, Vistas)'], ['Reconstruct', 'Metric 3D points from 1 or 4 frames'], ['Measure', 'Underside to RANSAC road plane'], ['QC', 'Camera height, columns, distance'], ['Decide', 'Accept / review / reject, GeoJSON out']];
     steps.forEach(function (s, i) {
       var x = 38 + i * 108, hl = i === 2, conf = i >= 4;
       var b = rect(sl, x, 100, 98, 128, hl ? C.maroon : (conf ? C.greenLt : C.card), SlidesApp.ShapeType.ROUND_RECTANGLE);
@@ -289,7 +293,7 @@ var SLIDES = [
   // 9. Decision layer
   function (sl) {
     title(sl, 'Every estimate gets a decision, without using ground truth');
-    var st = [['Quality check', 'Camera height 0.7–3.5 m\n≥ 10 underside columns\nBridge within 90 m', C.ink, 'Fail → reject'], ['Plausibility gate', 'Estimate must be 3–9 m\nBelow 3 m = wrong target', C.orange, 'Fail → reject'], ['Camera rule', 'Wide-angle, uncalibrated lens (k1 < −0.06)', C.maroon, 'Flag → review'], ['View agreement', 'Single- vs multi-view differ by > 1.05 m', C.maroon, 'Flag → review']];
+    var st = [['Quality check', 'Camera 0.7–3.5 m high\n≥ 10 underside columns\nBridge within 90 m', C.ink, 'Fail → reject'], ['Plausibility gate', 'Estimate must be 3–9 m\nBelow 3 m = wrong target', C.orange, 'Fail → reject'], ['Camera rule', 'Wide-angle, uncalibrated lens\n(k1 < −0.06)', C.maroon, 'Flag → review'], ['View agreement', 'Single- vs multi-view differ by > 1.05 m', C.maroon, 'Flag → review']];
     st.forEach(function (s, i) {
       var x = 38 + i * 154;
       rect(sl, x, 96, 140, 150, C.card, SlidesApp.ShapeType.ROUND_RECTANGLE);
